@@ -1,6 +1,6 @@
 local render = require("kokokoko2d.cursor_sign_render")
 local M = {}
-M.version = "0.0.2"
+M.version = "0.0.3"
 
 
 
