@@ -45,7 +45,8 @@ function M.setup()
 
   -- カーソルの動きを見る
   vim.api.nvim_create_autocmd(
-    { 'CursorMoved', 'CursorMovedI', 'CmdlineChanged' },
+    -- { 'CursorMoved', 'CursorMovedI', 'CmdlineChanged' },
+    { 'CursorMoved' },
     {
       group = 'kokokoko2d',
       callback = function()
