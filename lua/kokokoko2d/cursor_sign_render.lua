@@ -283,7 +283,7 @@ function M.render_range_based_dist(buffer, from_pos, to_pos, speed)
 
 
   -- 誤差を少なくするための厳密な列描画位置の計算
-  -- 整数計算だけでやる方法よりも分かりやすさ重視
+  -- 整数計算だけでやる方法よりも分かりやすさ重視(縦横比の整数倍の差で切り上げるか下げるか判定より)
   local pos_c = from_pos.cnum
 
   -- 折れている行数カウント(描画しない)
